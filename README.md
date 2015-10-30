@@ -29,7 +29,7 @@
     * Once fully downloaded, install and proceed
     
 2. Make sure **Homebrew** is installed.  
-  * We need **brew** in order to download pyton and several other important essentials for this project. We are able to use the following script to install brew and learn what it's adding:
+  * We need **brew** in order to download python and several other important essentials for this project. We are able to use the following script to install brew and learn what it's adding:
     <pre>ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”</pre>
   * Press ENTER and enter your password to allow the install
   * To ensure everything worked, type the following:
@@ -171,7 +171,7 @@
     <pre>setuptools 18.3.2 from usr/local/lib/python2.7/dist-packages/setuptools-18.3.2-py2.7.egg (Python 2.7)</pre>
   * If there are any issues, please go back a few steps and attempt to re-install.
 
-#### Installing a virtual enviornment
+#### Installing a virtual environment
 1. In this step, we install a "Virtual Environment." After a lot of searching and testing, I found that Django can be run very easily on a virtual environment. A virtual environment is created to encapsulate all the data and resources required to run Django at one place so that all the changes made remain in that environment itself. Another important benefit of the virtual environment is that it supports the light weight web server provided by Django by default. This allows the installation and integration of apache server to be avoided.
   * The easiest way to install a virtual environment on linux is by using the "easy_install" command. This script comes with a package called python-setuptools which we have installed in a previous step. 
   * We can install the environment using the following command:
@@ -202,7 +202,7 @@
   * Any command or operation performed in the environment will not affect anything outside the environment. The changes are isolated and this allows us to easily create as many environments as we want and test many things very easily without causing problems for other projects.
 
 ####Installing Django
-1. The final step is installing Django within this environment that we have created in the previous step. Remember that you still have to be in the virtual environment in the django-user folder else django will be installed outside the environmant and cannot be used. To install Django use the command:
+1. The final step is installing Django within this environment that we have created in the previous step. Remember that you still have to be in the virtual environment in the django-user folder else django will be installed outside the environment and cannot be used. To install Django use the command:
   <pre>easy_install django</pre>
 2. Thats it! Django is installed on your system with all required functionality for beginners to develop and learn the framework.  
 3. Now you can go ahead and try out the DJANGO tutorial to learn the different functionalities and run your first web app. You can find the tutorial in the official [Django documentation](https://docs.djangoproject.com/en/1.7/intro/tutorial01/#creating-a-project)
