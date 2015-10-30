@@ -172,7 +172,7 @@
   * If there are any issues, please go back a few steps and attempt to re-install.
 
 #### Installing a virtual enviornment
-1. In this step, we install a "Virtual Environment." After a lot of searching and testing, I found that Django can be run very easily on a virtual environment. A virtual environment is created to encapsulate all the data and resources required to run Django at one place so that all the changes made remain in that environment itself. Another important benefit of the virtual environment is that it supports the light weight web server provided by Django by default. This allows the installation and integration of apache server to be avoided.
+1. In this step, we install a "Virtual Environment." I found that Django can be run very easily on a virtual environment. A virtual environment is created to encapsulate all the data and resources required to run Django at one place so that all the changes made remain in that environment itself. Another important benefit of a virtual environment is that it supports the light weight web server provided by Django by default. This avoids the process of installing and integrating an apache server.
   * The easiest way to install a virtual environment on linux is by using the "easy_install" command. This script comes with a package called python-setuptools which we have installed in a previous step. 
   * We can install the environment using the following command:
     <pre>sudo easy_install virtualenv</pre>
